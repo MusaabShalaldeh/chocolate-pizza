@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+header
+{
+    /* position: absolute; */
+    margin: 40px auto;
+    margin-bottom: 50px;
+    width: 80%;
+    
+}
+header div{
+    position: absolute;
+    /* background-color: blue; */
+} 
+
+header div h1
+{
+    /* position: absolute; */
+    
+    font-size: 45px;
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+}
+header div h6
+{
+    /* position: absolute; */
+    margin-left: 50px;
+    /* display: inline-block; */
+}
+
+header nav ul{
+    
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    /* float */
+}
+
+header nav ul li:nth-child(7){
+    margin-left: 10px;
+}
+
+main{
+    /* text-align: center; */
+    clear: both;
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px 0px;
+    padding-top: 5%;
+}
+
+main div h1{
+    font-size: 45px;
+    display: inline-block;
+    font-weight: bolder;
+    /* float: left; */
+}
+
+#print img, #print h6{
+    float: right;
+}
+
+
+main section
+{
+    text-align: center;
+}
+
+#hero
+{
+    width: 100%
+}
